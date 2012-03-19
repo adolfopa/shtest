@@ -1,0 +1,8 @@
+shtest_root = ../..
+shtest_bin = $(shtest_root)/bin
+
+test:
+	$(shtest_bin)/run-suite.sh `pwd`
+
+clean:
+	-rm -r *~
